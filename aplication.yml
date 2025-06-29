@@ -1,0 +1,15 @@
+global:
+  message: Welcome to microservice env!
+
+logging: 
+  lavel:
+    root: INFO
+Management:
+  endpoints:
+    web:
+      exposure:
+        include: helath, info, refresh
+endpoint:
+  health:
+    show-details: always
+  
